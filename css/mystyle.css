@@ -1,3 +1,9 @@
+#cabeçalho .header{
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
 #cabeçalho img{
     height: 70px;
     margin: 5px;
