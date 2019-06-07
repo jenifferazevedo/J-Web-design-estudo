@@ -23,6 +23,34 @@
     padding: 10px;
 }
 
+#pesquisa {
+    margin-left: ;
+}
+
+#pesquisa input, input:focus, textarea {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding-right: 10px;
+    width: 90%;
+    margin: 5px;
+    margin-left: 0px;
+    border: none;
+    border-color: none;
+    outline: none;
+}
+
+#pesquisa a {
+    width: 20px;
+    padding-left: 0% !important;
+}
+
+#pesquisa img {
+    width: 20px;
+    height: auto;
+    border: 0;
+}
+
 .carousel-indicators li {
     width: 10px;
     height: 10px;
@@ -61,7 +89,3 @@
     padding-left: 85%;
 }
 
-#pesquisa img {
-    width: 20px;
-    height: auto;
-}
