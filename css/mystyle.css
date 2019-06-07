@@ -1,7 +1,5 @@
-.logo {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3em;
-    color: black;
+#cabeçalho img{
+    height: 70px;
 }
 
 #menu.col-lg-7 {
@@ -9,7 +7,7 @@
 }
 
 #menu a:hover {
-    color: rgb(227, 192, 241);
+    color: rgb(198, 137, 223);
 }
 
 #menu a {
