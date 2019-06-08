@@ -21,6 +21,10 @@
     color: rgb(150, 150, 150);
 }
 
+.sticky-top{
+    background-color: white;
+}
+
 .navbar {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3rem;
