@@ -127,17 +127,21 @@
 
 #conteúdosespeciais .col-lg-5 {
     padding: 0% 0% 0% 0%;
-    background: white; 
+    background: white;
 }
 
+#conteúdosespeciais .bg {
+    height: 350px;
+    margin: 0% 0% 0% 0%;
+    background:lightpink; 
+    margin-top: 25px;
+    margin-left: -10px;
+}
 #conteúdosespeciais p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 350px;
-    width: 100%;
     margin: 0% 0% 0% 0%;
     padding: 10%;
-    background:lightpink; 
-    margin-top: 25px;
 }
 
 #conteúdosespeciais span.titulo {
