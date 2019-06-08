@@ -166,3 +166,10 @@
     font-size: 0.9em;
     color: black;
 }
+
+#conteúdosespeciais button {
+    margin: 5% 0% 0% 85%;
+    color: rgb(75, 75, 75);
+    background-color:rgb(255, 208, 215);
+}
+
