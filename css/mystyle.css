@@ -133,17 +133,25 @@
     text-shadow: -1px -1px white;
 }
 
+#conteúdosespeciais .fundo{
+    margin: 40px 0px 0px 0px;
+    height: 100px; 
+    background: rgb(220, 131, 255);
+    display: grid;
+}
+
 #conteúdosespeciais h2 {
     color: black;
-    height: 100px; 
-    background: rgb(220, 131, 255); 
-    margin: 40px 0px 0px 0px;
-    padding: 30px 0px 0px 30px;
+    margin:30px 30px 30px 30px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 5px;
+    border-left-style: solid;
+    border-left-color: blueviolet;
 }
 
 #conteúdosespeciais .col-lg-1 {
     height: 200px;
-
     background: black; 
     margin: 100px 0px 100px 0px;
     padding: 0% 0% 0% 0%;
@@ -205,7 +213,13 @@
 
 #conteúdosespeciais button {
     margin: 5% 0% 0% 85%;
-    color: rgb(75, 75, 75);
     background-color:rgb(255, 208, 215);
 }
 
+#conteúdosespeciais button a {
+    color: rgb(75, 75, 75) ;
+}
+
+#conteúdosespeciais button a:hover {
+    color: blueviolet;
+}
