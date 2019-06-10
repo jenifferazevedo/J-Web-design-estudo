@@ -211,17 +211,19 @@
     color: black;
 }
 
-#conteúdosespeciais button {
+#conteúdosespeciais .btn {
+    font-size: 0.7em;
+    padding: 3px;
     margin: 5% 0% 0% 85%;
-    background-color:rgb(255, 208, 215);
+    background-color:rgb(149, 24, 165);
 }
 
-#conteúdosespeciais button a {
-    color: rgb(75, 75, 75) ;
+#conteúdosespeciais a {
+    color: rgb(255, 255, 255) ;
 }
 
 #conteúdosespeciais button a:hover {
-    color: blueviolet;
+    color: black;
 }
 
 #noticias .card {
@@ -292,4 +294,15 @@
 .card-text {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 10px 10px 10px !important;
+}
+
+#noticias a.btn {
+    margin-top: 10%;
+    margin-left: 55%;
+}
+
+#noticias a.btn-primary {
+    color: white;
+    background: rgb(149, 24, 165);
+    border-color: rgb(149, 24, 165);
 }
