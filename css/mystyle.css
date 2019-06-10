@@ -377,3 +377,50 @@ a:hover{
     background: rgb(149, 24, 165);
     border-color: rgb(149, 24, 165);
 }
+
+#atlas{
+    margin-top: 50px;
+}
+
+#atlas .atlassubbg {
+    position: absolute;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: -15%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#atlas .atlassubbg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#atlas .atlasbg {
+    position: relative;
+    height: 600px;
+    background-color: rgb(87, 2, 99);
+    overflow: hidden;
+}
+
+#atlas .atlasbg img {
+    filter: saturate(20%) opacity(20%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#atlasbtn a.btn {
+    margin-top: 15px;
+    margin-left: -10px;
+    font-size: 1.6em;
+}
+
+#atlasbtn a.btn-primary {
+    color: white;
+    background: rgb(149, 24, 165);
+    border-color: rgb(149, 24, 165);
+}
