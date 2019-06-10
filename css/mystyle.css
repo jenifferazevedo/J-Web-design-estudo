@@ -133,14 +133,14 @@
     text-shadow: -1px -1px white;
 }
 
-#conteúdosespeciais .fundo{
+.fundo {
     margin: 40px 0px 0px 0px;
     height: 100px; 
     background: rgb(87, 2, 99);
     display: grid;
 }
 
-#conteúdosespeciais h2 {
+h2 {
     color: rgb(253, 222, 252);
     margin:30px 30px 30px 30px;
     padding: 0px 0px 0px 20px;
@@ -266,7 +266,7 @@
     color: black;
 }
 
-.card-nome {
+#noticias .card-nome {
     display: block;
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -277,21 +277,21 @@
     padding-top: 3px;
 }
 
-.card-title {
+#noticias .card-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
     padding-top: 0px;
     margin-top: -10px;
 }
 
-.card-autor {
+#noticias .card-autor {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8em;
     text-align: right;
     margin-top: -10px;
 }
 
-.card-text {
+#noticias .card-text {
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 10px 10px 10px !important;
 }
@@ -306,3 +306,4 @@
     background: rgb(149, 24, 165);
     border-color: rgb(149, 24, 165);
 }
+
