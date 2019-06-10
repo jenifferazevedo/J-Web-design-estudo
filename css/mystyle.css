@@ -136,23 +136,23 @@
 #conteúdosespeciais .fundo{
     margin: 40px 0px 0px 0px;
     height: 100px; 
-    background: rgb(220, 131, 255);
+    background: rgb(87, 2, 99);
     display: grid;
 }
 
 #conteúdosespeciais h2 {
-    color: black;
+    color: rgb(253, 222, 252);
     margin:30px 30px 30px 30px;
     padding: 0px 0px 0px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-left: 5px;
     border-left-style: solid;
-    border-left-color: blueviolet;
+    border-left-color: violet;
 }
 
 #conteúdosespeciais .col-lg-1 {
     height: 200px;
-    background: black; 
+    background: rgb(87, 2, 99); 
     margin: 100px 0px 100px 0px;
     padding: 0% 0% 0% 0%;
 }
@@ -177,7 +177,7 @@
 #conteúdosespeciais .bg {
     height: 350px;
     margin: 0% 0% 0% 0%;
-    background:lightpink; 
+    background:rgb(253, 222, 252); 
     margin-top: 25px;
     margin-left: -10px;
 }
@@ -222,4 +222,74 @@
 
 #conteúdosespeciais button a:hover {
     color: blueviolet;
+}
+
+#noticias .card {
+    height: 600px;
+    margin: 50px 0px 0px 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 0px;
+    border-style: none;
+    border-radius: none;
+}
+
+#noticias .card img {
+    height: 300px;
+    margin: auto;
+}
+
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#noticias .card-body {
+    display: grid;
+    height: 300px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color:  rgb(87, 2, 99);
+    padding-bottom: 0px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+#noticias .card-body:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+#noticias a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-nome {
+    display: block;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 222, 252);
+    background-color: rgb(87, 2, 99);
+    margin: -65px 200px 20px -35px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+.card-autor {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 10px !important;
 }
