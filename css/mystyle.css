@@ -34,10 +34,6 @@
     padding: 10px;
 }
 
-#pesquisa {
-    margin-left: ;
-}
-
 #pesquisa input, input:focus, textarea {
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
@@ -92,7 +88,7 @@
     width:300px;
 }
    
-  #txtBusca{
+#txtBusca{
     float:left;
     background-color:transparent;
     padding-left:5px;
@@ -414,7 +410,7 @@ a:hover{
 }
 
 #atlasbtn a.btn {
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: -10px;
     font-size: 1.6em;
 }
@@ -423,4 +419,9 @@ a:hover{
     color: white;
     background: rgb(149, 24, 165);
     border-color: rgb(149, 24, 165);
+}
+
+#atlas .atlastext {
+    margin-top: -570px;
+    position: absolute;
 }
