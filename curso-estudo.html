@@ -18,8 +18,8 @@
     <section id="cabeçalho" class="sticky-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5">
-              <img src=".\img\logo site estudo - cantinho das flores.svg" alt="logo">
+          <div class="col-lg-5 "> 
+              <img class="wow zoomIn" src=".\img\logo site estudo - cantinho das flores.svg" alt="logo">
           </div>
           <!--Tem um erro de na parte responsivel e quero colocar o header fixo-->
           <div id= "menu" class="col-lg-7 col-md-7 col-sm-7">
@@ -69,27 +69,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <!--qual barra de pesquisa manter?-->
-    <section id="pesquisagoogle">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <script>
-                        (function() {
-                          var cx = '011046363882766956748:kbf-bewncke';
-                          var gcse = document.createElement('script');
-                          gcse.type = 'text/javascript';
-                          gcse.async = true;
-                          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                          var s = document.getElementsByTagName('script')[0];
-                          s.parentNode.insertBefore(gcse, s);
-                        })();
-                      </script>
-                      <gcse:searchbox-only></gcse:searchbox-only>
-                </div>
-            </div>
-        </div>
     </section>
     <section id="sliderfotos">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -302,10 +281,13 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!--meu js-->
-    <script src=".\js\funções.js" crossorigin="meu"></script>
+    <script src=".\js\funções.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src=".\js\wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
