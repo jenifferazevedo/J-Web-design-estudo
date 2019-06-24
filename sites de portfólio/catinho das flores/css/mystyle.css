@@ -1,0 +1,35 @@
+/*ordem
+1-menu
+2-
+3
+*/
+
+/*1-menu*/
+
+.navbar{
+    height: 70px;
+}
+
+ul.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(145, 145, 145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color:violet !important;
+}
+
+#menu {
+    background-color: white;
+    position: fixed;
+}
+
+#menu img{
+    width: auto;
+    height: 50px;
+}
