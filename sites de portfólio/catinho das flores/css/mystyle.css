@@ -20,16 +20,36 @@ ul.navbar-nav {
     font-weight: bold;
 }
 
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(61, 30, 61);
+}
+
 .nav-link:hover{
     color:violet !important;
 }
 
+.nav-link:focus{
+    color:rgb(109, 6, 177) !important;
+}
+
 #menu {
     background-color: white;
-    position: fixed;
 }
 
 #menu img{
     width: auto;
     height: 50px;
+}
+
+
+@media (max-width: 600px){
+    #menu {
+        background-color: black;
+    }
+    #menu img{
+        filter: invert(100%);
+    }
+    button {
+        background-color: white !important;
+    }
 }
