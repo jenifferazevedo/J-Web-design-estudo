@@ -151,6 +151,10 @@ p {
     border-style: none;
 }
 
+.card-img-top {
+    height: 380px;
+}
+
 .card-body {
     height: 300px;
     padding-top: 70px;
@@ -183,6 +187,12 @@ h3.card-name {
     margin-top: 70px;
 }
 
+#outrosconteudos img {
+    object-fit: cover;
+    object-position: center;
+}
+
+
 #outrosconteudos a {
     color: black;
 }
@@ -190,4 +200,9 @@ h3.card-name {
 #outrosconteudos a:hover {
     text-decoration: none;
     background-color: rgb(219, 219, 219);
+}
+
+#outrosconteudos .col-lg-6:nth-child(2) {
+    padding-left: 30px;
+    padding-right: 0;
 }
