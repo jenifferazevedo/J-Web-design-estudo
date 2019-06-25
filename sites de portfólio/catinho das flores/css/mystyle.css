@@ -1,17 +1,18 @@
 /*ordem
 1-menu
-2-
+2-slider
 3
 */
 
 /*1-menu*/
 
 .navbar{
-    height: 70px;
+    height: 100px;
 }
 
 ul.navbar-nav {
     margin-left: auto;
+    font-size: 1.2em;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -38,18 +39,39 @@ ul.navbar-nav {
 
 #menu img{
     width: auto;
-    height: 50px;
+    height: 80px;
 }
 
+/*fim menu*/
 
-@media (max-width: 600px){
-    #menu {
-        background-color: black;
-    }
-    #menu img{
-        filter: invert(100%);
-    }
-    button {
-        background-color: white !important;
-    }
+/*2-slider*/
+
+#slider {
+    position: relative;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.carousel-item {
+    height: 620px;
+    object-position: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: 50% !important;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0, 50%);
+    width: 40%;
+    margin-bottom: 10%;
 }
