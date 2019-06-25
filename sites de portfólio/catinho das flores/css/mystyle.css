@@ -1,7 +1,7 @@
 /*ordem
 1-menu
 2-slider
-3
+3-conteudos especiais
 */
 
 /*1-menu*/
@@ -75,3 +75,54 @@ ul.navbar-nav {
     width: 40%;
     margin-bottom: 10%;
 }
+
+/*fim slider*/
+/*3-conteudos especiais*/
+h2 {
+    color: rgb(253, 222, 252);
+    margin:30px 30px 30px 30px;
+    padding: 0px 0px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 5px;
+    border-left-style: solid;
+    border-left-color: violet;
+}
+
+.bg-titulo {
+    background-color: rgb(70, 5, 83);
+}
+
+.bgimg {
+    background-color: rgb(70, 5, 83);
+    height: 200px;
+    margin-top: 100px;
+}
+
+.bgesp1{
+    background-color: rgb(253, 222, 252);
+    height: 350px;
+    margin-top: 25px;
+    padding: 30px 30px 30px 30px !important;
+}
+
+#conteudosespeciais {
+    margin-top: 40px;
+}
+
+#conteudosespeciais .container:nth-child(2){
+    padding: 0% !important;
+}
+
+#conteudosespeciais img {
+    width: 100%;
+    height: 400px;
+    padding-left: 50px;
+    margin-top: -100px;
+    object-fit: cover;
+    object-position: center;
+}
+  
+
+
+
+
