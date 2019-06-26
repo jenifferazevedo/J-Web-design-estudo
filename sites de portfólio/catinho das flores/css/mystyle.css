@@ -223,7 +223,6 @@ h3.card-name {
 
 #artigos a:hover {
     text-decoration: none;
-    background-color: rgb(219, 219, 219);
 }
 
 #artigos h3.card-name {
@@ -233,6 +232,7 @@ h3.card-name {
 #artigos .card-body {
     padding-top: 50px;
     border-bottom: 10px solid  rgb(70, 5, 83);
+    background-color: rgb(253, 222, 252);
 }
 
 #artigos .sub-title {
