@@ -3,6 +3,7 @@
 2-slider
 3-conteudos especiais
 4-outros conteudos
+5-artigos
 */
 
 /*1-menu*/
@@ -84,6 +85,7 @@ h2 {
     margin:30px 30px 30px 30px;
     padding: 0px 0px 0px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3em;
     border-left: 5px;
     border-left-style: solid;
     border-left-color: violet;
@@ -95,6 +97,7 @@ p {
 
 .bg-titulo {
     background-color: rgb(70, 5, 83);
+    height: 100px;
 }
 
 .bgimg {
@@ -115,7 +118,7 @@ p {
 }
 
 #conteudosespeciais {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #conteudosespeciais img {
@@ -151,26 +154,8 @@ p {
     border-style: none;
 }
 
-.card-img-top {
-    height: 380px;
-}
-
-.card-body {
-    height: 300px;
-    padding-top: 70px;
-    border-bottom: 10px solid  rgb(70, 5, 83);
-}
-
-.card-title {
-    font-size: 1.8em;
-}
-
 .sub-title {
     color: rgb(112, 111, 111);
-}
-
-.card-text {
-    font-size: 1.3em;
 }
 
 h3.card-name {
@@ -180,12 +165,25 @@ h3.card-name {
     margin-top: -20px;
     padding: 10px;
     width: 60%;
-    font-size: 2.3em;
     position: absolute;
 }
 
+#outrosconteudos .card-img-top {
+    height: 380px;
+}
+
+#outrosconteudos .card-body {
+    height: 300px;
+    padding-top: 70px;
+    border-bottom: 10px solid  rgb(70, 5, 83);
+}
+
+#outrosconteudos .card-text {
+    font-size: 1.3em;
+}
+
 #outrosconteudos {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 #outrosconteudos img {
@@ -206,4 +204,37 @@ h3.card-name {
 #outrosconteudos .col-lg-6:nth-child(2) {
     padding-left: 30px;
     padding-right: 0;
+}
+
+/*fim de outros conteudos*/
+/*5-artigos*/
+
+#artigos {
+    margin-top: 60px;
+}
+
+#artigos .container:nth-child(2) {
+    margin-top: 40px;
+}
+
+#artigos a {
+    color: black;
+}
+
+#artigos a:hover {
+    text-decoration: none;
+    background-color: rgb(219, 219, 219);
+}
+
+#artigos h3.card-name {
+    width: 70%;
+}
+
+#artigos .card-body {
+    padding-top: 50px;
+    border-bottom: 10px solid  rgb(70, 5, 83);
+}
+
+#artigos .sub-title {
+    font-size: 0.8em;
 }
