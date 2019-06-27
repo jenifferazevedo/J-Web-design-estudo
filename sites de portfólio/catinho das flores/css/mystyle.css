@@ -4,6 +4,8 @@
 3-conteudos especiais
 4-outros conteudos
 5-artigos
+6-atlas
+7-formulariodecadastro
 */
 
 /*1-menu*/
@@ -337,8 +339,28 @@ h3.card-name {
     color:  rgb(253, 222, 252);
     background-color: rgb(87, 2, 99);
     border-color: white;
+    padding-top: 8px;
     margin-top: 15px;
     margin-left: 70%;
     width: 30%;
+    height: 80%;
 }
 
+/*fim de atlas*/
+/*7-formulariodecadastro*/
+
+#formulariodecadastro {
+    margin-top: 60px;
+}
+
+#formulariodecadastro h2{
+    text-transform: uppercase;
+    background-color: rgb(70, 5, 83);
+    
+}
+
+#formulariodecadastro .bg-titulo {
+    background-color: rgb(70, 5, 83);
+    width: 100%;
+    height: 148%;
+}
