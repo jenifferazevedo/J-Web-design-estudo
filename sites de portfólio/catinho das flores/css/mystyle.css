@@ -238,3 +238,12 @@ h3.card-name {
 #artigos .sub-title {
     font-size: 0.8em;
 }
+
+#artigos .btn.btn-primary {
+    margin-top: 20px;
+    margin-left: 80%;
+    width: 20%;
+    background-color: rgb(70, 5, 83);
+    color: rgb(253, 222, 252);
+    border-color: white;
+}
