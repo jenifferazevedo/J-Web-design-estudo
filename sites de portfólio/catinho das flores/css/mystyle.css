@@ -8,8 +8,10 @@
 
 /*1-menu*/
 
+
+
 .navbar{
-    height: 100px;
+    height: 70px;
 }
 
 ul.navbar-nav {
@@ -35,13 +37,32 @@ ul.navbar-nav {
     color:rgb(109, 6, 177) !important;
 }
 
+form input, input:focus, textarea {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    padding-right: 10px;
+    width: 95%;
+    margin: 5px;
+    margin-left: 0px;
+    border: none;
+    border-color: none;
+    outline: none;
+}
+
 #menu {
     background-color: white;
 }
 
-#menu img{
+#menu .navbar-brand img{
     width: auto;
-    height: 80px;
+    height: 65px;
+}
+
+#menu form img {
+    width: 18px;
+    height: auto;
+    border: 0;
 }
 
 /*fim menu*/
@@ -60,7 +81,7 @@ ul.navbar-nav {
 }
 
 .carousel-item {
-    height: 620px;
+    height: 650px;
     object-position: center;
 }
 
