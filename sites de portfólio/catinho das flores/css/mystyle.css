@@ -259,6 +259,16 @@ h3.card-name {
     margin-top: 60px;
 }
 
+#atlas .container {
+    padding: 0 !important;
+}
+
+#atlas a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
 #atlas img.atlasback {
     position: absolute;
     width: 250px;
@@ -275,4 +285,30 @@ h3.card-name {
     filter: saturate(20%) opacity(20%);
     object-fit: cover;
     object-position: center;
+    position: relative;
+    float: inline-start;
 }
+
+#atlas .card-img-overlay:nth-of-type(1) {
+    padding: 0 !important;
+}
+
+#atlas .card-img-overlay:nth-of-type(2) {
+    padding-top: 10%;
+    margin: 100px 100px 100px 100px;
+    background-color: rgba(0,0,0, 40%);
+    color: white;
+    text-align: center;
+}
+
+#atlas h4 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#atlas h3 {
+    font-size: 5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 45px;
+}
+
