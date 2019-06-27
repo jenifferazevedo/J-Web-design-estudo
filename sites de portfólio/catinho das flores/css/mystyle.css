@@ -312,3 +312,12 @@ h3.card-name {
     margin-bottom: 45px;
 }
 
+#atlas a.btn.btn-primary {
+    color:  rgb(253, 222, 252);
+    background-color: rgb(87, 2, 99);
+    border-color: white;
+    margin-top: 15px;
+    margin-left: 70%;
+    width: 30%;
+}
+
