@@ -18,12 +18,12 @@ ul.navbar-nav {
     font-size: 1.2em;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(145, 145, 145);
+    color: rgb(158, 108, 156);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 .navbar-light .navbar-nav .active>.nav-link {
-    color: rgb(61, 30, 61);
+    color: rgb(153, 49, 153);
 }
 .nav-link:hover{
     color:violet !important;
@@ -201,8 +201,16 @@ h3.card-name {
 #artigos a:hover {
     text-decoration: none;
 }
+#artigos img {
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+#artigos .card-img-top {
+    height: 200px;
+}
 #artigos h3.card-name {
-    width: 70%;
+    width: 80%;
 }
 #artigos .card-body {
     padding-top: 50px;
@@ -434,6 +442,9 @@ input .from-group, .form-control {
     }
     #conteudosespeciais .bgesp1{
         height: 250px;
+    }
+    #conteudosespeciais .btn{
+        margin-left: 85%;
     }
     #outrosconteudos .col-lg-6:nth-child(1){
         padding-right: 0px;
