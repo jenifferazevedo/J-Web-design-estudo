@@ -406,11 +406,11 @@ input .from-group, .form-control {
 /*fim de footer*/
 
 /*9-mediaqueries*/
-@media screen and (max-width: 768px) {
+@media (max-width: 1199.98px) {
     #slider p {
         font-size: 0.9em;
     }
-    #outrosconteudos p.card-text {
+    #outrosconteudos .card-text{
         font-size: 1.1em;
     }
     #atlas a.btn.btn-primary {
@@ -419,7 +419,7 @@ input .from-group, .form-control {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991.98px) {
     #menu form input {
         width: 90%;
     }
@@ -471,7 +471,11 @@ input .from-group, .form-control {
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 767.98px){
+    h2 {
+        font-size: 2em;
+        margin: 30px 30px 30px 30px;
+    }
     #menu .navbar-brand img {
         height: 50px;
     }
@@ -481,10 +485,6 @@ input .from-group, .form-control {
     #slider {
         display: none;
     }
-    #conteudosespeciais h2 {
-        font-size: 1.7em;
-        margin: 15px 30px 15px 30px;
-    }
     #conteudosespeciais .bgimg {
         margin-top: 50px;
     }
@@ -493,13 +493,14 @@ input .from-group, .form-control {
         margin-top: -50px;
     }
     #conteudosespeciais .bgesp1 {
-        height: 250px;
+        height: 180px;
     }
     #conteudosespeciais p:nth-child(3){
         display: none;
     }
     #conteudosespeciais .btn {
-        margin-left: 60%;
+        margin-left: 80%;
+        width: 20%;
     }
     #outrosconteudos .card-img-top {
         height: 250px;
@@ -522,11 +523,18 @@ input .from-group, .form-control {
     #artigos {
         margin-top: 40px;
     }
-    #artigos h2 {
-        font-size: 1.7em;
-    }
     #artigos .col-lg-4 {
         margin-bottom: 20px
+    }
+    #artigos h3.card-name {
+        width: 90%;
+        font-size: 1.7em;
+    }
+    #artigos .sub-title {
+        display: none;
+    }
+    #artigos .card-text {
+        display: none;
     }
     #artigos .btn.btn-primary {
         margin-top: 0;
@@ -538,9 +546,6 @@ input .from-group, .form-control {
     }
     #atlas img.atlas {
         height: 500px;
-    }
-    #atlas h2 {
-        font-size: 1.7em;
     }
     #atlas .card-img-overlay:nth-of-type(2) {
         padding-top: 20%;
@@ -575,24 +580,69 @@ input .from-group, .form-control {
     }
     #formulariodecadastro .btn {
         margin-left: 75%;
+        width: 20%;
+        font-size: 1.1em;
     }
     #footer {
-        height: 300px;
+        height: 200px;
     }
     #footer .col-lg-4 {
         padding-left: 0;
         margin-left: 10%;
+        width: 250px;
     }
     #footer .col-lg-4:nth-child(1){
         display: none;
     }
     #footer .col-lg-4:nth-child(3){
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-left: 0px;
+        width: 200px;
+    }
+    .footer-medias img {
+        width: 20%;
     }
 }
 
-
-
-
-
-
+@media (max-width: 568px){
+    h2 {
+        font-size: 1.6em;
+        margin: 30px 10px 30px 10px;
+    }
+    #conteudosespeciais {
+        margin-top: 0px;
+    }
+    #conteudosespeciais h3 {
+        font-size: 1.3rem;
+    }
+    #conteudosespeciais .bgesp1 {
+        height: 150px;
+    }
+    #conteudosespeciais p {
+        display: none;
+    }
+    #conteudosespeciais .btn {
+        margin-left: 65%;
+        width: 40%;
+    }
+    #artigos .col-lg-4 {
+        width: 100%;
+    }
+    #artigos .col-lg-4:nth-child(3) {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #formulariodecadastro h2 {
+        font-size: 1.3em;
+    }
+    #formulariodecadastro .btn {
+        margin-left: 70%;
+        width: 30%;
+    }
+    #footer {
+        height: 300px;
+    }
+    #footer .col-lg-4:nth-child(3) {
+        margin-left: 10%;
+    }
+}
