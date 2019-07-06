@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background: rgb(0,89,255);
-    background: linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 40%, rgba(255,255,255,1) 40%);
+    background: linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 45%, rgba(255,255,255,1) 45%);
     background-repeat: no-repeat;
 }
 #header {
@@ -45,13 +45,13 @@ input.form-control.form-control-sm {
     margin-left: 40%;
 }
 #conteudo .foto {
-    width: 60%;
+    width: 150px;
     height: 150px;
     border-radius: 100%;
     border-style: dashed;
     border-color: blue;
-    margin-top: 40px;
-    margin-left: 20%;
+    margin-top: 30px;
+    margin-left: 50px;
     padding: 15px;
     overflow: hidden;
 }
@@ -73,19 +73,15 @@ input.form-control.form-control-sm {
     text-align: center;
     color: white;
 } 
-
 .botões-bg {
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(238, 238, 238);
     border-radius: .30rem;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 570px;
-}
-
-#conteudo .col-lg-9 {
-    margin-top: 55px;
 }
 #conteudo h3 {
     color: white;
+    margin-top: 55px;
 }
 .card-body {
     margin-top: 50px;
@@ -109,4 +105,58 @@ input.form-control.form-control-sm {
 }
 .btn p {
     margin-top: 10px;
+}
+.bg1 {
+    background-color: white;
+}
+#actions {
+    margin: 40px 0px 0px 0px;
+    padding-top: 5px;
+    border-radius: .30rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#actions h5 {
+    color: blue;
+}
+#actions img {
+    width: 25px;
+    margin-left: 20px;
+}
+#action0 {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+#action1 {
+    margin-top: 10px;
+}
+#action1 img {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+#action1 p:nth-child(2) {
+    font-size: 0.6em;
+    margin: 0px 0px 0px 10px;
+}
+#action1 h6 {
+    font-size: 0.7em;
+    margin: 0px 0px 0px 10px;
+}
+#action1 .col-lg-2 {
+    padding-right: 0px;
+    padding-top: 5px;
+    border-left: 1px solid rgb(218, 218, 218);
+}
+#imagens {
+    margin-top: 40px;
+}
+#imagens .col-lg-8 img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#imagens .col-lg-4 img {
+    margin-top: 80px;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 100%;
+    border-radius: .20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0px -30px 2px -8px rgba(203, 198, 245, 0.8), 0px -60px 2px -15px rgba(203, 198, 245, 0.6);
 }
