@@ -1,19 +1,40 @@
+/*Ordem
+1-body
+2-header
+3-logo
+4-dashboard
+5-pesquisa
+6-icons-menu
+7-conteudo
+8-conteudo/primeiro
+9-conteudo/cards
+10-conteudo/actions
+11-conteudo/imagens
+12-medias queries
+13-
+14-
+*/
+
+/*1-body*/
 body {
-    height: 100vh;
+    height: 680px;
     background: rgb(0,89,255);
-    background: linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 45%, rgba(255,255,255,1) 45%);
+    background: linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 40%, rgba(255,255,255,1) 40%);
     background-repeat: no-repeat;
 }
+/*2-header*/
 #header {
     padding-top: 10px;
 }
+/*3-logo*/
 #logo h3 {
     color: white;
     font-style: italic;
     font-size: 2.5em;
 }
+/*4-dashboard*/
 #dashboard {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 #dashboard a {
     font-size: 0.9em;
@@ -22,6 +43,7 @@ body {
 #dashboard a:hover {
     text-decoration: none;
 }
+/*5-pesquisa*/
 input.form-control.form-control-sm {
     float: left;
     margin-top: 10px;
@@ -34,6 +56,7 @@ input.form-control.form-control-sm {
     position: relative;
     float: left;
 }
+/*6-icons-menu*/
 #icons-menu {
     padding-top: 10px;
 }
@@ -44,15 +67,16 @@ input.form-control.form-control-sm {
 #icons-menu img:nth-child(1) {
     margin-left: 40%;
 }
+/*7-conteudo*/
 #conteudo .foto {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     border-style: dashed;
     border-color: blue;
     margin-top: 30px;
-    margin-left: 50px;
-    padding: 15px;
+    margin-left: 30%;
+    padding: 10px;
     overflow: hidden;
 }
 #conteudo .foto img {
@@ -64,6 +88,7 @@ input.form-control.form-control-sm {
 }
 #conteudo .name h4 {
     margin-top: 10px;
+    margin-bottom: 0px;
     font-size: 1.2em;
     text-align: center;
     color: white;
@@ -79,10 +104,12 @@ input.form-control.form-control-sm {
     margin-top: 50px;
     height: 570px;
 }
+/*8-conteudo/primeiro*/
 #conteudo h3 {
     color: white;
-    margin-top: 55px;
+    margin-top: 40px;
 }
+/*9-conteudo/cards*/
 .card-body {
     margin-top: 50px;
     position: relative;
@@ -98,7 +125,6 @@ input.form-control.form-control-sm {
     margin: 20px 0px 0px 23px;
     padding: 5% 5%;
 }
-
 .btn img {
     width: 25px;
     margin-top: 5px;
@@ -109,6 +135,7 @@ input.form-control.form-control-sm {
 .bg1 {
     background-color: white;
 }
+/*10-conteudo/actions*/
 #actions {
     margin: 40px 0px 0px 0px;
     padding-top: 5px;
@@ -146,6 +173,7 @@ input.form-control.form-control-sm {
     padding-top: 5px;
     border-left: 1px solid rgb(218, 218, 218);
 }
+/*11-conteudo/imagens*/
 #imagens {
     margin-top: 40px;
 }
@@ -159,4 +187,166 @@ input.form-control.form-control-sm {
     width: 100%;
     border-radius: .20rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0px -30px 2px -8px rgba(203, 198, 245, 0.8), 0px -60px 2px -15px rgba(203, 198, 245, 0.6);
+}
+/*12-medias queries*/
+
+@media (max-width: 1199.98px) {
+    #dashboard {
+        margin-top:0px;
+    }
+    #icons-menu img:nth-child(1) {
+        margin-left: 25%;
+    }
+    #conteudo .foto {
+        margin-left: 25%;
+    }
+    .btn {
+        height: 70px;
+        width: 70px;
+    }
+    .botões-bg {
+        height: 480px;
+    }
+    .btn p {
+        margin-top: 5px;
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #logo {
+        width: 20%;
+    }
+    #header .col-lg-6 {
+        width: 50%;
+    }
+    #dashboard {
+        width: 40%;
+    }
+    #pesquisa {
+        width: 60%;
+    }
+    #icons-menu {
+        width: 30%;
+    }
+    #header span {
+        display: none;
+    }
+    #icons-menu img:nth-child(1) {
+        margin-left: 40px;
+    }
+    .perfil {
+        float: left;
+        width: 30%;
+    }
+    .botões-bg {
+        margin-left: 30%;
+        margin-top: 40px;
+        height: 150px;
+    }
+    .btn {
+        height: 30px;
+        width: 80px;
+        padding: 5px;
+        margin: 15px 0px 0px 30px;
+    }
+    .btn img {
+        display: none;
+    }
+    .btn p {
+        margin-top: 0px;
+    }
+    #conteudo h3 {
+        color: blue;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .card-body {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0px -20px 2px -8px rgba(203, 198, 245, 0.8), 0px -40px 2px -15px rgba(203, 198, 245, 0.6);
+    }
+    #action0 .col-lg-10 {
+        width: 80%;
+    }
+    #action0 .col-lg-2 {
+        width: 20%;
+    }
+    #action1 .col-lg-6,#action1 .col-lg-2 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #header .col-lg-6 {
+        width: 30%;
+    }
+    #dashboard {
+        display: none;
+    }
+    #icons-menu {
+        width: 40%;
+    }
+    #pesquisa {
+        width: 100%;
+    }
+    #conteudo .foto {
+        margin-left: 15%;
+    }
+    .botões-bg {
+        margin-left: 35%;
+    }
+    .btn {
+        width: 60px;
+        margin: 15px 0px 0px 15px;
+    }
+    #action0 .col-lg-10 {
+        width: 75%;
+    }
+    #action0 .col-lg-2 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 568px) {
+    #logo {
+        width: 40%;
+        padding-left: 30px;
+    }
+    #header .col-lg-6 {
+        display: none;
+    }
+    #icons-menu {
+        width: 60%;
+    }
+    #conteudo .foto {
+        margin-left: 5%;
+    }
+    #conteudo .name h5 {
+        display: none;
+    }
+    a.btn.btn-primary:nth-child(1) {
+        display: none;
+    }
+    #action0 .col-lg-10 {
+        width: 60%;
+    }
+    #action0 .col-lg-2 {
+        width: 40%;
+        padding-top: 10px;
+    }
+    #action1 .col-lg-6 {
+        padding-left: 5px;
+    }
+    #action1 p {
+        font-size: 0.9em;
+    }
+    #action1 span {
+        font-size: 0.8em;
+    }
+    #action1 .col-lg-2 {
+        padding-left: 0px;
+    }
+    #action1 img {
+        display: none;
+    }
 }
